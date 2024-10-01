@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "sidebar header"
+    "sidebar main";
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 250px 1fr;
+    height: 100vh; 
+}
+  
+.header {
+    grid-area: header;
+    border: 1px solid;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border: 1px solid;
+}
+
+.main-content {
+    grid-area: main;
+    border: 1px solid;
+}
