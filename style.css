@@ -48,3 +48,63 @@ a {
     text-decoration: none;
     color: inherit;       
   }
+
+  .header {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows for top and bottom sections */
+    gap: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.user-profile .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-left {
+    display: flex;
+    align-items: center;
+}
+
+.profile-left .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.greeting-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.actions-right .action-button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
