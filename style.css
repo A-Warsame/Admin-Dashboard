@@ -27,3 +27,24 @@ html, body {
     grid-area: main;
     border: 1px solid;
 }
+
+.nav-list {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.nav-list li {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;       
+  }
